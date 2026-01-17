@@ -1,0 +1,11 @@
+[all:vars]
+ansible_user=ec2-user
+ansible_ssh_private_key_file=/root/.ssh/ssh120.pem
+
+[nginx]
+worker1 ansible_host=98.93.11.188
+
+[apache]
+worker2 ansible_host=3.88.171.187
+
+
